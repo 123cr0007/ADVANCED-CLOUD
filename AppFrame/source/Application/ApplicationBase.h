@@ -1,0 +1,45 @@
+
+#include "dxlib.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "../Mode//ModeServer.h"
+#include"..//GamePad/GamePad.h"
+
+// EffekseerForDXLib.hをインクルードします。
+#include "EffekseerForDXLib.h"
+
+
+class ApplicationBase
+{
+public:
+	ApplicationBase();
+	virtual ~ApplicationBase();
+
+	virtual bool Initialize(HINSTANCE hInstance);
+	virtual bool Terminate();
+	virtual bool Input();
+	virtual bool Process();
+	virtual bool Render();
+
+	virtual bool AppWindowed() { return true; }
+	virtual int DispSizeW() { return 640; }
+	virtual int DispSizeH() { return 480; }
+
+	static	ApplicationBase	*GetInstance() { return _lpInstance; }
+	DINPUT_JOYSTATE input;		// キー入力
+
+	virtual int GetKey() { return _gKey; }
+	virtual int GetTrg() { return _gTrg; }
+	virtual DINPUT_JOYSTATE GetInput() { return input; }
+
+protected:
+	static	ApplicationBase	*_lpInstance;
+
+	int		_gKey, _gTrg;
+
+	ModeServer* _serverMode;
+
+	GamePad* _gamepad;//ゲームパッドのアドレス
+
+};

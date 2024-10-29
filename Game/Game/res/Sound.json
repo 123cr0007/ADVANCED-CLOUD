@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "se":"se",
+      "filename":"energy_point.mp3",
+      "maxvolume": 255,
+      "minvolume": 0
+    },
+    {
+      "se":"se",
+      "filename":"energy_point_best.mp3",
+      "maxvolume": 255,
+      "minvolume": 0
+    },   
+    {
+      "se":"se",
+      "filename":"energy_point_lost.mp3",
+      "maxvolume": 255,
+      "minvolume": 0
+    }
+  ]
+}

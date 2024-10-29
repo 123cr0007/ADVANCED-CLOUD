@@ -1,0 +1,402 @@
+{
+  "data": [
+    {
+      "bgm": "bgm",
+      "filename": "BGM_BlueRadiance.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "bgm": "bgm",
+      "filename": "BGM_EmptyEchoes.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "bgm": "bgm",
+      "filename": "BGM_GreenHarmony.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "bgm": "bgm",
+      "filename": "BGM_Hopeful.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "bgm": "bgm",
+      "filename": "BGM_Three.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "bgm": "bgm",
+      "filename": "SE_Wind.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "fadein": true,
+      "fadeout": true
+    },
+    {
+      "se": "se",
+      "filename": "SE_SELECT.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_SELECT_ENTER.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_SELECT_BACK.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_WALK.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_JUMP.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_LAND.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_ENP_Charge.mp3",
+      "maxvolume": 150,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_ENP_Cancel.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_BestJump.mp3",
+      "maxvolume": 100,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_EN_Shot.mp3",
+      "maxvolume": 150,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "se": "se",
+      "filename": "SE_COM_Shot.mp3",
+      "maxvolume": 150,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_Start_1.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_SB.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "se": "se",
+      "filename": "SE_ITEM.mp3",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_1.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_2.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_3.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_4.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_5.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_6.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_7.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_8.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_9.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_10.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_11.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_12.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_13.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_14.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_15.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_16.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_17.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_PL_18.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_1.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_2.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_3.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_4.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound":false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_5.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_6.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_7.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_COM_8.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": false
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_1.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_2.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_3.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_4.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_5.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_6.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_7.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_8.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_9.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    },
+    {
+      "voice": "voice",
+      "filename": "VOICE_ACT_EN_10.wav",
+      "maxvolume": 255,
+      "minvolume": 0,
+      "3dsound": true
+    }
+  ]
+}

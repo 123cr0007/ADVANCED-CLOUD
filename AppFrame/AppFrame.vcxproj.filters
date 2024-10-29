@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4ca63305-d083-453b-88a9-706f0a1ac180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModeServer">
+      <UniqueIdentifier>{f65d1d8e-b785-4c0b-a849-085fd92b4b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFile">
+      <UniqueIdentifier>{8fbd5843-f112-4047-a7f8-83460621436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mymath">
+      <UniqueIdentifier>{dd5ce4a3-d089-4d95-bcac-4c626ff80fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{397c9df4-6255-408a-a190-42015b1de420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector3D">
+      <UniqueIdentifier>{b6b28914-1c2d-42e1-b2ce-01e204edb536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{51ff843d-de83-4367-acb4-77559d1ef722}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Application\ApplicationBase.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\WinMain.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode\ModeBase.cpp">
+      <Filter>ModeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode\ModeServer.cpp">
+      <Filter>ModeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CFile\CFile.cpp">
+      <Filter>CFile</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utility\Time.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utility\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mymath\mymath.cpp">
+      <Filter>Mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Vector3D\Vector3D.cpp">
+      <Filter>Vector3D</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GamePad\GamePad.cpp" />
+    <ClCompile Include="source\Sound\LoadSound.cpp" />
+    <ClCompile Include="source\Sound\ModeSoundLayer.cpp" />
+    <ClCompile Include="source\Sound\SoundItem.cpp" />
+    <ClCompile Include="source\Sound\SoundServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Application\ApplicationBase.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\UtilMacro.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\appframe.h" />
+    <ClInclude Include="source\Mode\ModeBase.h">
+      <Filter>ModeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mode\ModeServer.h">
+      <Filter>ModeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CFile\CFile.h">
+      <Filter>CFile</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utility\Time.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utility\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mymath\mymath.h">
+      <Filter>Mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Vector3D\Vector3D.h">
+      <Filter>Vector3D</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GamePad\GamePad.h" />
+    <ClInclude Include="source\Sound\LoadSound.h" />
+    <ClInclude Include="source\Sound\ModeSoundLayer.h" />
+    <ClInclude Include="source\Sound\SoundItem.h" />
+    <ClInclude Include="source\Sound\SoundServer.h" />
+  </ItemGroup>
+</Project>

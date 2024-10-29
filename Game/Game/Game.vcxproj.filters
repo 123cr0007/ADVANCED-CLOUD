@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode">
+      <UniqueIdentifier>{0d63623e-2f23-4c1a-baa6-e3a3f01c1cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode">
+      <UniqueIdentifier>{3dd98670-5c1a-4028-b766-ee8a19eeed00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{4a92ab10-aa2f-4835-b6dc-188d60c294a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{8214be81-984c-4ce1-91c7-b7a02931bd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{80d5bb05-e814-46c3-a3b3-5e06ef093cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{e0ade2b9-e529-4625-820b-bcb89eea9091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Item">
+      <UniqueIdentifier>{07e8c0de-6b58-448f-8b08-7bb05a1c965f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object\Item">
+      <UniqueIdentifier>{a590c800-2d93-4cf1-b4e4-f72ef58c3e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sound">
+      <UniqueIdentifier>{4be885cc-3fe1-4ed9-bd09-26561be25417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\enemy">
+      <UniqueIdentifier>{956c9438-0b37-4a2b-92ba-420567c5fd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object\enemy">
+      <UniqueIdentifier>{ab1f3d49-fa63-44f6-a03b-90eb19c89ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\sound">
+      <UniqueIdentifier>{95f54588-8bf2-4bc7-a857-c1c3c7760f90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\ApplicationMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeEffekseer.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGame.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeMenu.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectBase.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Stage.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnergyGauge.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Fellow.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bullet.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTitle.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameOver.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ApplicationGlobal.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeControl.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeCredit.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeSetting.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeSound.cpp">
+      <Filter>ソース ファイル\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy.cpp">
+      <Filter>ソース ファイル\Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadEnemy.cpp">
+      <Filter>ソース ファイル\Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FadeInOut.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeStory.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Effect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sound\SoundServer.cpp">
+      <Filter>ソース ファイル\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sound\SoundItem.cpp">
+      <Filter>ソース ファイル\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sound\LoadSound.cpp">
+      <Filter>ソース ファイル\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Item.cpp">
+      <Filter>ソース ファイル\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyManager.cpp">
+      <Filter>ソース ファイル\Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTutorial.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ApplicationMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeEffekseer.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGame.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeMenu.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectBase.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Stage.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnergyGauge.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Fellow.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Bullet.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Item.h">
+      <Filter>ヘッダー ファイル\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTitle.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameOver.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ApplicationGlobal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadEnemy.h">
+      <Filter>ヘッダー ファイル\Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enemy.h">
+      <Filter>ヘッダー ファイル\Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeSound.h">
+      <Filter>ヘッダー ファイル\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeCredit.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeControl.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeSetting.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FadeInOut.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeStory.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Effect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sound\LoadSound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sound\SoundItem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sound\SoundServer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyManager.h">
+      <Filter>ヘッダー ファイル\Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTutorial.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
