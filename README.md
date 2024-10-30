@@ -1,9 +1,5 @@
-# AppFrameReadme
-AppFrame を使用した作品の説明サンプル  
-(この段落は使用しない)
-
-# 作品タイトル名(自身の作品名)
-DX ライブラリと C++ 言語で作成した 3D ハイスピードシューティングゲーム
+# ADDVANCED CLOUD Readme
+DX ライブラリと C++ 言語で作成した 3D ジャンプアクションゲーム
 
 # 開発環境
 Windows 11  
